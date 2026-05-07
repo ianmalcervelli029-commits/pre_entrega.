@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechFix - Venta y Servicio Técnico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">
+        <span class="logo-icon">⚙️</span>
+        TechFix
+      </h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#resenias">Reseñas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <video autoplay muted loop playsinline class="hero-video">
+        <source src="video/hero.mp4" type="video/mp4">
+        Tu navegador no soporta video HTML5.
+      </video>
+      <div class="hero-content">
+        <h2>Tu equipo en las mejores manos</h2>
+        <p>Venta, reparación y mantenimiento de computadoras y notebooks en Buenos Aires</p>
+        <a href="productos.html" class="btn">Ver productos</a>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="servicios-section" id="servicios">
+      <h2 class="section-title">Nuestros Servicios</h2>
+      <div class="cards-container">
+
+        <!-- Card 1 -->
+        <div class="card">
+          <img src="https://placehold.co/600x400/1a1a2e/00d4ff?text=Reparacion" alt="Reparación de PC">
+          <div class="card-content">
+            <h3>Reparación de PC</h3>
+            <p>Diagnóstico y reparación de cualquier falla en tu computadora de escritorio.</p>
+            <a href="#contacto">Consultar →</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <img src="https://placehold.co/600x400/1a1a2e/00d4ff?text=Notebooks" alt="Service de Notebooks">
+          <div class="card-content">
+            <h3>Service de Notebooks</h3>
+            <p>Cambio de pantalla, teclado, batería y limpieza de pasta térmica.</p>
+            <a href="#contacto">Consultar →</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <img src="https://placehold.co/600x400/1a1a2e/00d4ff?text=Mantenimiento" alt="Mantenimiento preventivo">
+          <div class="card-content">
+            <h3>Mantenimiento Preventivo</h3>
+            <p>Limpieza interna, actualización de software y optimización del sistema.</p>
+            <a href="#contacto">Consultar →</a>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+          <img src="https://placehold.co/600x400/1a1a2e/00d4ff?text=Upgrades" alt="Upgrades y mejoras">
+          <div class="card-content">
+            <h3>Upgrades y Mejoras</h3>
+            <p>Ampliación de RAM, cambio a SSD y actualización de componentes.</p>
+            <a href="#contacto">Consultar →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Productos destacados -->
+    <section class="productos-section" id="productos">
+      <h2 class="section-title">Productos Destacados</h2>
+      <div class="productos-container">
+
+        <div class="producto-card">
+          <img src="https://placehold.co/400x300/0f3460/e94560?text=PC+Gamer" alt="PC Gamer">
+          <h3>PC Gamer Armada</h3>
+          <p>Ryzen 5 / RTX 4060 / 16GB RAM / 1TB SSD</p>
+          <span class="precio">$850.000</span>
+          <a href="#contacto" class="btn-sm">Consultar</a>
+        </div>
+
+        <div class="producto-card">
+          <img src="https://placehold.co/400x300/0f3460/e94560?text=Notebook" alt="Notebook">
+          <h3>Notebook Lenovo IdeaPad</h3>
+          <p>Intel i5 / 8GB RAM / 512GB SSD / 15.6"</p>
+          <span class="precio">$620.000</span>
+          <a href="#contacto" class="btn-sm">Consultar</a>
+        </div>
+
+        <div class="producto-card">
+          <img src="https://placehold.co/400x300/0f3460/e94560?text=Monitor" alt="Monitor">
+          <h3>Monitor 27" Full HD</h3>
+          <p>Panel IPS / 144Hz / FreeSync / HDMI + DP</p>
+          <span class="precio">$280.000</span>
+          <a href="#contacto" class="btn-sm">Consultar</a>
+        </div>
+
+        <div class="producto-card">
+          <img src="https://placehold.co/400x300/0f3460/e94560?text=Perifericos" alt="Periféricos">
+          <h3>Kit Periféricos Gamer</h3>
+          <p>Mouse + Teclado + Mousepad / RGB</p>
+          <span class="precio">$95.000</span>
+          <a href="#contacto" class="btn-sm">Consultar</a>
+        </div>
+
+        <div class="producto-card">
+          <img src="https://placehold.co/400x300/0f3460/e94560?text=SSD" alt="SSD">
+          <h3>SSD 1TB NVMe</h3>
+          <p>PCIe Gen 4 / Lectura 7000 MB/s</p>
+          <span class="precio">$85.000</span>
+          <a href="#contacto" class="btn-sm">Consultar</a>
+        </div>
+
+        <div class="producto-card">
+          <img src="https://placehold.co/400x300/0f3460/e94560?text=RAM" alt="Memoria RAM">
+          <h3>Memoria RAM 16GB DDR5</h3>
+          <p>5600MHz / CL36 / Compatible Intel y AMD</p>
+          <span class="precio">$65.000</span>
+          <a href="#contacto" class="btn-sm">Consultar</a>
+        </div>
+
+      </div>
+      <div class="ver-mas">
+        <a href="productos.html" class="btn">Ver todos los productos</a>
+      </div>
+    </section>
+
+    <!-- Reseñas -->
+    <section class="resenias-section" id="resenias">
+      <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+      <div class="resenias-container">
+
+        <div class="resenia-card">
+          <p class="resenia-text">
+            "Me arreglaron la notebook en 24 horas. Pensé que la tenía que tirar y quedó como nueva. Excelente atención."
+          </p>
+          <div class="resenia-author">
+            <img src="https://placehold.co/80x80/1a1a2e/00d4ff?text=MG" alt="Cliente Martín">
+            <div>
+              <h4>Martín González</h4>
+              <span>Cambio de pantalla</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resenia-card">
+          <p class="resenia-text">
+            "Compré una PC armada y el precio fue muy competitivo. Además me la configuraron completamente lista para usar."
+          </p>
+          <div class="resenia-author">
+            <img src="https://placehold.co/80x80/1a1a2e/00d4ff?text=LP" alt="Cliente Laura">
+            <div>
+              <h4>Laura Pereyra</h4>
+              <span>PC Gamer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resenia-card">
+          <p class="resenia-text">
+            "Le hicieron el mantenimiento a todas las computadoras de mi empresa. Trabajo impecable y precios corporativos."
+          </p>
+          <div class="resenia-author">
+            <img src="https://placehold.co/80x80/1a1a2e/00d4ff?text=CR" alt="Cliente Carlos">
+            <div>
+              <h4>Carlos Romero</h4>
+              <span>Cliente corporativo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resenia-card">
+          <p class="resenia-text">
+            "Cambié el disco a SSD y no lo puedo creer, arranca en segundos. Debería haberlo hecho mucho antes."
+          </p>
+          <div class="resenia-author">
+            <img src="https://placehold.co/80x80/1a1a2e/00d4ff?text=AM" alt="Cliente Ana">
+            <div>
+              <h4>Ana Martínez</h4>
+              <span>Upgrade a SSD</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contacto-section" id="contacto">
+      <h2 class="section-title">Contacto</h2>
+      <div class="contacto-container">
+
+        <div class="contacto-info">
+          <h3>Encontranos</h3>
+          <p>📍 Av. Rivadavia 4500, Merlo, Buenos Aires</p>
+          <p>📞 +54 11 4500-1234</p>
+          <p>✉️ info@techfix.com.ar</p>
+          <p>🕐 Lun a Vie: 9:00 - 18:00 | Sáb: 9:00 - 13:00</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.018280197969!2d-58.38417712427235!3d-34.60369925749729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1777371559712!5m2!1ses-419!2sar"
+            width="100%"
+            height="250"
+            style="border:0; border-radius: 8px; margin-top: 1rem;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicación TechFix">
+          </iframe>
+        </div>
+
+        <!-- Formulario con Formspree -->
+        <div class="contacto-form">
+          <h3>Escribinos</h3>
+          <form action="https://formspree.io/f/tu-id-formspree" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre completo" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <input type="tel" name="telefono" placeholder="Teléfono (opcional)">
+            <select name="servicio">
+              <option value="" disabled selected>¿Qué necesitás?</option>
+              <option value="reparacion">Reparación de PC</option>
+              <option value="notebook">Service de Notebook</option>
+              <option value="mantenimiento">Mantenimiento preventivo</option>
+              <option value="compra">Compra de equipo</option>
+              <option value="otro">Otro</option>
+            </select>
+            <textarea name="mensaje" placeholder="Contanos tu consulta..." required></textarea>
+            <button type="submit" class="btn">Enviar mensaje</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-box">
+        <h3>TechFix</h3>
+        <p>Venta y servicio técnico de computadoras y notebooks. Más de 10 años en el rubro tecnológico.</p>
+      </div>
+
+      <div class="footer-box">
+        <h3>Navegación</h3>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#resenias">Reseñas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-box">
+        <h3>Contacto</h3>
+        <p>📍 Av. Rivadavia 4500, Merlo</p>
+        <p>📞 +54 11 4500-1234</p>
+        <p>✉️ info@techfix.com.ar</p>
+      </div>
+
+      <div class="footer-box">
+        <h3>Seguinos</h3>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+          <a href="#">WhatsApp</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 TechFix | Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+</body>
+</html>
